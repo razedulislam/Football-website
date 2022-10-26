@@ -1,1 +1,74 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 /* Common Style */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* players section Start */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-row-gap: 30px;
+   padding: 30px 50px;
+}
+.player{
+
+    border: 1px solid gainsboro;
+    Width :330px;
+    Height :474px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: -1px 3px 10px -3px rgba(0,0,0,0.66);
+-webkit-box-shadow: -1px 3px 10px -3px rgba(0,0,0,0.66);
+-moz-box-shadow: -1px 3px 10px -3px rgba(0,0,0,0.66);
+}
+.player img{
+    width:300px ;
+    height: 256px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.player-name,.player-des{
+    padding-left: 12px;
+    padding-right: 10px;
+}
+/* players section End */
+/* Media queries Start */
+/* for small device maximum width 689 start*/
+@media screen and (max-width:689px) {
+    
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        grid-row-gap: 30px;
+       
+    }
+
+}
+/* for small device maximum width 689 end*/
+/* for ipad/medium device maximum width 992px start*/
+@media screen and (min-width:690px) and (max-width:992px) {
+    
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        grid-row-gap: 30px;
+       
+    }
+
+}
+/* for ipad/medium device maximum width 992px end*/
+
+
+/* Media queries End */
