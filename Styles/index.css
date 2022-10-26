@@ -111,7 +111,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
     .high-light-left{
         width: 329px;
@@ -119,8 +118,7 @@ body{
     }
     .high-light-right img{
         Width : 328px;
-        Height : 228px;
-       
+        Height : 228px; 
     }
     .high-light-heading{
         font-size: 30px;  
@@ -147,6 +145,19 @@ body{
         grid-row-gap: 30px;
     }
     
+    /* for highligh section start */
+    .high-light-left{
+        width: 379px;
+        padding-bottom: 30px;
+    }
+    .high-light-right img{
+        Width : 370px;
+        Height : 320px; 
+    }
+    .high-light-heading{
+        font-size: 35px;  
+    }
+    /* for highligh section end */
 }
 /* for ipad/medium device maximum width 992px end*/
 
