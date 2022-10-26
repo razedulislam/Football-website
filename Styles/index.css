@@ -149,7 +149,12 @@ body{
 /* for small device maximum width 689 start*/
 @media screen and (max-width:689px) {
     /* for .navigation-menu */
-    
+
+    .navigation-menu{
+        height: 777px;
+        padding-top: 40px;
+        padding-right: 70px;
+    }
     .menu-bar ul{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -172,11 +177,9 @@ position: relative;
 .home-page .heading-text{
     font-size: 20px;
 }
-.navigation-menu{
-    height: 777px;
-    padding-top: 40px;
-}
+
     /* for .navigation-menu end */
+
     /* for player */
     .players{
         display: grid;
