@@ -149,15 +149,21 @@ body{
 /* for small device maximum width 689 start*/
 @media screen and (max-width:689px) {
     /* for .navigation-menu */
+    
+    .menu-bar ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
     .home-page{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0 50px;
     }
-.heading-img{
-    width: 300px;
-    height: 259.17px;
+.heading-img img{
+    width: 400px;
+    height: 290px;
     padding-right: 100px;
 }
 .heading-text .heading-btn{
@@ -207,11 +213,25 @@ position: relative;
     }
     /* for footer section end */
 }
+
+
 /* for small device maximum width 689 end*/
 /* for ipad/medium device maximum width 992px start*/
 
 @media screen and (min-width:690px) and (max-width:992px) {
-    
+    /* for header section */
+    .heading-img{
+        width: 380px;
+        height: 359.17px;
+        padding-right: 100px;
+    }
+    .heading-text .heading-btn{
+    position: relative;
+    }
+    .home-page .heading-text{
+        font-size: 28px;
+    }
+  /* for header End */
     .players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
