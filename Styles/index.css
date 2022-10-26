@@ -167,8 +167,9 @@ body{
         padding: 0 50px;
     }
 .heading-img img{
-    width: 400px;
+    width: 390px;
     height: 290px;
+    padding-left: 100px;
     padding-right: 100px;
 }
 .heading-text .heading-btn{
@@ -217,16 +218,24 @@ position: relative;
     /* for footer section end */
 }
 
-
 /* for small device maximum width 689 end*/
-/* for ipad/medium device maximum width 992px start*/
 
+
+/* for ipad/medium device maximum width 992px start*/
 @media screen and (min-width:690px) and (max-width:992px) {
     /* for header section */
-    .heading-img{
-        width: 380px;
-        height: 359.17px;
-        padding-right: 100px;
+
+    .menu-bar ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+        font-size: 23px;
+    }
+    .heading-img img{
+        width: 450px;
+        height: 360px;
+        padding-top: -30px;
+        
     }
     .heading-text .heading-btn{
     position: relative;
